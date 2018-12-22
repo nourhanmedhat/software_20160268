@@ -75,6 +75,19 @@ try {
 void description() {
 
 
+form x=new form();
+	 Scanner input = new Scanner(System.in);
+	 Scanner put = new Scanner(System.in);
+	 System.out.println("enter your lost thing");
+	 lost_thing_name=input.nextLine();
+	 System.out.println("enter your color of lost thing");
+	 x.color=input.nextLine();
+	 System.out.println("enter your place of lost thing");
+     x.place=input.nextLine();
+	 System.out.println("enter the date");
+	 x.date=put.nextInt();
+
+
 }
 
 }

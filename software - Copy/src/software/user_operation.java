@@ -21,9 +21,31 @@ String text;
 	}
 	//__________________________________________________________________________
 	boolean searchinpost() {
+x.description();
+		category c=new category();
+		c.display_all_category();
+		choose_categry();
+		
+		p.display_all_post();
+		for(int i=0;i<p.save_post.size();i++) {
+		if(p.save_post.contains(x.lost_thing_name))
+				{
+			     System.out.println("found");
+			     
+				}
+		else
+			System.out.println("not found");
+		
+		}
+		
+		
+		return false;
+
+
 
 
 	}
+//________________________________________________________________
 	void choose_categry() {
 		int choose;
 		 Scanner input = new Scanner(System.in);
