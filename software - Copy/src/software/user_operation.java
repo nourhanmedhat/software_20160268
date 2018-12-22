@@ -8,7 +8,16 @@ public class user_operation {
 
 	void write_post() {
 
-
+String text;
+		
+		category c=new category();
+		c.display_all_category();
+		choose_categry();
+		System.out.println("enter your post");
+		Scanner input = new Scanner(System.in);
+		 
+		
+		p.save_post.add(input.next());
 	}
 	//__________________________________________________________________________
 	boolean searchinpost() {

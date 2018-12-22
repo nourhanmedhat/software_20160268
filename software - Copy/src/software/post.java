@@ -9,7 +9,7 @@ ArrayList<String> save_post=new ArrayList<String>();
 
  void display_all_post() {
 
-
+ System.out.println(save_post);
 
  }
 }
